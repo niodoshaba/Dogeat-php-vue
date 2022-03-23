@@ -1,0 +1,1158 @@
+@import "header_footer.css";
+*{
+    font-family: "Noto Sans TC";
+}
+*a{
+    font-size: 0;
+}
+
+
+body{
+    /* min-width: 1440px; */
+    margin: 0px;
+    ;
+}
+.titlex > p{
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    color:#606060;
+    text-align: center;
+    text-shadow:#606060 0em 0em 0.05em;
+}
+
+#dog1{
+    opacity: .2;
+    position: absolute;
+    width: 10%;
+    right: 1%;
+    top:15%;
+}
+#dog2{
+    opacity: .2;
+    position: absolute;
+    width: 10%;
+    right: 10%;
+    top:40%;
+}
+#dog3{
+    opacity: .2;
+    position: absolute;
+    width: 10%;
+    right: 0%;
+    top:60%;
+    
+}
+#dog4{
+    opacity: .2;
+    position: absolute;
+    width: 10%;
+    right: 15%;
+    top:130%;
+}
+#dog5{
+    opacity: .2;
+    position: absolute;
+    width: 15%;
+    right: 0%;
+    top:110%;
+}
+#dog6{
+    opacity: .2;
+    position: absolute;
+    width: 15%;
+    right: 10%;
+    top:85%;
+}
+#dog7{
+    opacity: .2;
+    position: absolute;
+    width: 15%;
+    left: 30%;
+    top:35%;
+}
+#dog8{
+    opacity: .2;
+    position: absolute;
+    width: 15%;
+    left: 5%;
+    top:15%;
+}
+#dog9{
+    opacity: .2;
+    position: absolute;
+    width: 18%;
+    left: 10%;
+    top:120%;
+}
+#dog10{
+    opacity: .2;
+    position: absolute;
+    width: 12%;
+    left: 17%;
+    top:30%;
+}
+#dog11{
+    opacity: .2;
+    position: absolute;
+    width: 10%;
+    left: 15%;
+    top:80%;
+}
+#dog12{
+    opacity: .2;
+    position: absolute;
+    width: 10%;
+    left: 2%;
+    top:100%;
+}
+#dog13{
+    opacity: .2;
+    position: absolute;
+    width: 12%;
+    left: 5%;
+    top:50%;
+}
+
+.storyup{
+    width: 100%;
+    min-width: 1200px;
+    /* border: 1px solid red; */
+    display: inline-flex;
+
+}
+.upleft{
+    /* display: inline-block; */
+    /* border: 1px solid red; */
+    margin-left: 20%;
+    margin-right: 5%;
+}
+.upright{
+    width: 35%;
+    margin-top: 2%;
+    /* border: 1px solid red; */
+}
+
+.title {
+    color:#42813B;
+    font-size: 1.4rem;
+    margin-top: 60px;
+    text-shadow:#2d8b35 0em 0em 0.08em;
+}
+
+.title2{
+    color:#606060;
+    font-size: 1.6rem;
+
+    text-shadow:#606060 0em 0em 0.05em;
+}
+
+.text1{
+    color:#606060;
+    font-size: 1.1rem;
+    margin: 0;
+    margin-top: 20px;
+    line-height: 50px;
+    text-shadow:#606060 0em 0em 0.03em;
+}
+
+
+.storymid{
+    margin-left: 20.5%;
+    margin-top: 5%;
+    width: 60%;
+    height: 600px;
+    background-color: rgba(139, 173, 135, 0.096);
+    border-radius: 600px 0px 700px 0px;
+    transform: rotate(-10deg);
+}
+
+.mid{
+
+    /* border: 1px solid red; */
+    padding-top: 5%;
+    text-align: center;
+    transform: rotate(10deg);
+}
+
+.pictachi{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+    margin-top: -5%;
+    /* border-radius: 15px; */
+    overflow: hidden;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.bdiv{
+    width: 200%;
+    height: 25%;
+    display: flex;
+    transition: all 0.5s ease-out 0s;
+    transform: translateX(0%);
+}
+
+#b1 , #b2 , #b3 , #b4{
+    width: 50%;
+}
+
+.switchcir{
+    margin: 0;
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#cir1 , #cir2 , #cir3 , #cir4{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #55A34D;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#cir1{
+    background-color:#55A34D;
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .titlex > p{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        color:#606060;
+        text-align: center;
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    #dog1{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 1%;
+        top:15%;
+    }
+    #dog2{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 10%;
+        top:40%;
+    }
+    #dog3{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 0%;
+        top:60%;
+        
+    }
+    #dog4{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 15%;
+        top:130%;
+    }
+    #dog5{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 0%;
+        top:110%;
+    }
+    #dog6{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 10%;
+        top:85%;
+    }
+    #dog7{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        left: 30%;
+        top:35%;
+    }
+    #dog8{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        left: 5%;
+        top:15%;
+    }
+    #dog9{
+        opacity: .2;
+        position: absolute;
+        width: 18%;
+        left: 10%;
+        top:120%;
+    }
+    #dog10{
+        opacity: .2;
+        position: absolute;
+        width: 12%;
+        left: 17%;
+        top:30%;
+    }
+    #dog11{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        left: 15%;
+        top:80%;
+    }
+    #dog12{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        left: 2%;
+        top:100%;
+    }
+    #dog13{
+        opacity: .2;
+        position: absolute;
+        width: 12%;
+        left: 5%;
+        top:50%;
+    }
+    
+    .storyup{
+        width: 100%;
+        min-width: 1025px;
+        /* border: 1px solid red; */
+        display: inline-flex;
+    
+    }
+    .upleft{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        width: 35%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    .upright{
+        width: 35%;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 2%;
+        /* border: 1px solid red; */
+    }
+    
+    .title {
+        color:#42813B;
+        font-size: 1.4rem;
+        margin-top: 60px;
+        text-shadow:#2d8b35 0em 0em 0.08em;
+    }
+    
+    .title2{
+        color:#606060;
+        font-size: 1.6rem;
+        text-align: center;
+    
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    .text1{
+        color:#606060;
+        font-size: 1.1rem;
+        margin: 0 auto;
+        margin-top: 20px;
+        line-height: 50px;
+        text-shadow:#606060 0em 0em 0.03em;
+        width: 100%;
+
+    }
+    
+    
+    .storymid{
+        /* border: 1px solid blue; */
+        margin-left: 15%;
+        margin-top: 5%;
+        width: 70%;
+        height: auto;
+        background-color: rgba(139, 173, 135, 0.096);
+        border-radius: 600px 0px 700px 0px;
+        transform: rotate(-10deg);
+    }
+    
+    .mid{
+    /* width: 100%; */
+        /* border: 1px solid red; */
+        padding-top: 5%;
+        text-align: left;
+        transform: rotate(10deg);
+    }
+    
+    .pictachi{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 3%;
+        margin-top: 1%;
+        /* border-radius: 15px; */
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+    }
+    
+    .bdiv{
+        width: 200%;
+        height: 25%;
+        display: flex;
+        transition: all 0.5s ease-out 0s;
+        transform: translateX(0%);
+    }
+    
+    #b1 , #b2 , #b3 , #b4{
+        width: 50%;
+    }
+    
+    .switchcir{
+        margin: 0;
+        margin-top: -2%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    
+    #cir1 , #cir2 , #cir3 , #cir4{
+        height: 20px;
+        width: 20px;
+        border: 2px solid #55A34D;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    #cir1{
+        background-color:#55A34D;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .titlex > p{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        color:#606060;
+        text-align: center;
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    #dog1{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 1%;
+        top:15%;
+    }
+    #dog2{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 10%;
+        top:40%;
+    }
+    #dog3{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 0%;
+        top:60%;
+        
+    }
+    #dog4{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 15%;
+        top:130%;
+    }
+    #dog5{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 0%;
+        top:110%;
+    }
+    #dog6{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 10%;
+        top:85%;
+    }
+    #dog7{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        left: 30%;
+        top:35%;
+    }
+    #dog8{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        left: 5%;
+        top:15%;
+    }
+    #dog9{
+        opacity: .2;
+        position: absolute;
+        width: 18%;
+        left: 10%;
+        top:120%;
+    }
+    #dog10{
+        opacity: .2;
+        position: absolute;
+        width: 12%;
+        left: 17%;
+        top:30%;
+    }
+    #dog11{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        left: 15%;
+        top:80%;
+    }
+    #dog12{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        left: 2%;
+        top:100%;
+    }
+    #dog13{
+        opacity: .2;
+        position: absolute;
+        width: 12%;
+        left: 5%;
+        top:50%;
+    }
+    
+    .storyup{
+        width: 100%;
+        min-width: 769px;
+        /* border: 1px solid red; */
+        display: inline-flex;
+    
+    }
+    .upleft{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        width: 35%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .upleft .title2{
+text-align: left;
+    }
+
+    .upright .text1{
+        font-size: 16px;
+        text-align: left;
+        line-height: 40px;
+            }
+
+    .upright{
+        width: 35%;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 2%;
+        /* border: 1px solid red; */
+    }
+    
+    .title {
+        color:#42813B;
+        font-size: 1.4rem;
+        margin-top: 60px;
+        text-shadow:#2d8b35 0em 0em 0.08em;
+    }
+    
+    .title2{
+        color:#606060;
+        font-size: 1.6rem;
+        text-align: center;
+    
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    .text1{
+        color:#606060;
+        font-size: 1.1rem;
+        margin: 0 auto;
+        margin-top: 20px;
+        line-height: 50px;
+        text-shadow:#606060 0em 0em 0.03em;
+        width: 100%;
+
+    }
+    
+    
+    .storymid{
+        /* border: 1px solid blue; */
+        margin-left: 15%;
+        margin-top: 5%;
+        width: 70%;
+        height: auto;
+        background-color: rgba(139, 173, 135, 0.096);
+        border-radius: 600px 0px 700px 0px;
+        transform: rotate(-10deg);
+    }
+    
+    .mid{
+    /* width: 100%; */
+        /* border: 1px solid red; */
+        padding-top: 5%;
+        text-align: left;
+        transform: rotate(10deg);
+    }
+    
+    .pictachi{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 3%;
+        margin-top: 1%;
+        /* border-radius: 15px; */
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+    }
+    
+    .bdiv{
+        width: 200%;
+        height: 25%;
+        display: flex;
+        transition: all 0.5s ease-out 0s;
+        transform: translateX(0%);
+    }
+    
+    #b1 , #b2 , #b3 , #b4{
+        width: 50%;
+    }
+    
+    .switchcir{
+        margin: 0;
+        margin-top: -2%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    
+    #cir1 , #cir2 , #cir3 , #cir4{
+        height: 20px;
+        width: 20px;
+        border: 2px solid #55A34D;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    #cir1{
+        background-color:#55A34D;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .titlex > p{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        color:#606060;
+        text-align: center;
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    #dog1{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 1%;
+        top:15%;
+    }
+    #dog2{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 10%;
+        top:40%;
+    }
+    #dog3{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 0%;
+        top:60%;
+        
+    }
+    #dog4{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        right: 15%;
+        top:130%;
+    }
+    #dog5{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 0%;
+        top:110%;
+    }
+    #dog6{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 10%;
+        top:85%;
+    }
+    #dog7{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        left: 30%;
+        top:35%;
+    }
+    #dog8{
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        left: 5%;
+        top:15%;
+    }
+    #dog9{
+        opacity: .2;
+        position: absolute;
+        width: 18%;
+        left: 10%;
+        top:120%;
+    }
+    #dog10{
+        opacity: .2;
+        position: absolute;
+        width: 12%;
+        left: 17%;
+        top:30%;
+    }
+    #dog11{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        left: 15%;
+        top:80%;
+    }
+    #dog12{
+        opacity: .2;
+        position: absolute;
+        width: 10%;
+        left: 2%;
+        top:100%;
+    }
+    #dog13{
+        opacity: .2;
+        position: absolute;
+        width: 12%;
+        left: 5%;
+        top:50%;
+    }
+    
+    .storyup{
+        width: 100%;
+        min-width: 577px;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .upleft{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+
+    .upleft .title2{
+text-align: left;
+    }
+
+    .upright .text1{
+        font-size: 16px;
+        text-align: left;
+        line-height: 40px;
+            }
+
+    .upright{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0%;
+        margin-top: 0%;
+        /* border: 1px solid red; */
+    }
+    
+    .title {
+        color:#42813B;
+        font-size: 1.4rem;
+        margin-top: 60px;
+        text-shadow:#2d8b35 0em 0em 0.08em;
+    }
+    
+    .title2{
+        color:#606060;
+        font-size: 1.6rem;
+        text-align: center;
+    
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    .text1{
+        color:#606060;
+        font-size: 1.1rem;
+        margin: 0 auto;
+        margin-top: 20px;
+        line-height: 50px;
+        text-shadow:#606060 0em 0em 0.03em;
+        width: 100%;
+
+    }
+    #overflow{
+        width: 100%;
+        min-width: 577px;
+        height: auto;
+        /* border: 1px solid brown; */
+        overflow: hidden;
+    }
+    
+    .storymid{
+        /* border: 1px solid blue; */
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 80%;
+        height: auto;
+        background-color: rgba(139, 173, 135, 0.096);
+        border-radius: 600px 0px 700px 0px;
+        transform: rotate(-10deg);
+    }
+    
+    .mid{
+    /* width: 100%; */
+        /* border: 1px solid red; */
+        padding-top: 5%;
+        text-align: left;
+        transform: rotate(10deg);
+    }
+    
+    .pictachi{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        /* border-radius: 15px; */
+        overflow: hidden;
+        /* border: 1px solid red; */
+        position: relative;
+    }
+    
+    .bdiv{
+        /* border: 1px solid green; */
+        /* margin-left: 50%; */
+        width: 200%;
+        height: auto;
+        display: flex;
+        transition: all 0.5s ease-out 0s;
+        transform: translateX(0%);
+    }
+    
+    #b1 , #b2 , #b3 , #b4{
+        width: 50%;
+    }
+    
+    .switchcir{
+        margin: 0;
+        margin-top: 0%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #cir1 , #cir2 , #cir3 , #cir4{
+        height: 20px;
+        width: 20px;
+        border: 2px solid #55A34D;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    #cir1{
+        background-color:#55A34D;
+    }
+
+}
+
+@media screen and (min-width: 250px) and (max-width: 576px){
+
+    .titlex > p{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        color:#606060;
+        text-align: center;
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    #dog1{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 1%;
+        top:20%;
+    }
+    #dog2{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 10%;
+        top:40%;
+    }
+    #dog3{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 0%;
+        top:60%;
+        
+    }
+    #dog4{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        right: 15%;
+        top:130%;
+    }
+    #dog5{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 18%;
+        right: 0%;
+        top:110%;
+    }
+    #dog6{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 18%;
+        right: 10%;
+        top:85%;
+    }
+    #dog7{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 18%;
+        left: 30%;
+        top:35%;
+    }
+    #dog8{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 18%;
+        left: 5%;
+        top:20%;
+    }
+    #dog9{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 20%;
+        left: 10%;
+        top:120%;
+    }
+    #dog10{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 17%;
+        left: 17%;
+        top:30%;
+    }
+    #dog11{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        left: 15%;
+        top:80%;
+    }
+    #dog12{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 15%;
+        left: 2%;
+        top:100%;
+    }
+    #dog13{
+        display: none;
+        opacity: .2;
+        position: absolute;
+        width: 17%;
+        left: 5%;
+        top:50%;
+    }
+    
+    .storyup{
+        width: 100%;
+        min-width: 250px;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .upleft{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0%;
+        text-align: center;
+    }
+
+    .upleft .title2{
+text-align: center;
+font-size: 16px;
+    }
+
+    .upright .text1{
+        font-size: 14px;
+        text-align: left;
+        line-height: 35px;
+            }
+
+    .upright{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 0%;
+        margin-top: 0%;
+        /* border: 1px solid red; */
+    }
+    
+    .title {
+        color:#42813B;
+        font-size: 1.4rem;
+        margin-top: 60px;
+        text-shadow:#2d8b35 0em 0em 0.08em;
+    }
+    
+    .title2{
+        color:#606060;
+        text-align: center;
+        font-size: 16px;
+    
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    .text1{
+        color:#606060;
+        /* font-size: 1.1rem; */
+        margin: 0 auto;
+        margin-top: 20px;
+        /* line-height: 50px; */
+        text-shadow:#606060 0em 0em 0.03em;
+        width: 100%;
+        font-size: 14px;
+        text-align: left;
+        line-height: 35px;
+    }
+    #overflow{
+        width: 100%;
+        min-width: 250px;
+        height: auto;
+        /* border: 1px solid brown; */
+        overflow: hidden;
+    }
+    
+    .storymid{
+        /* border: 1px solid blue; */
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 80%;
+        height: auto;
+        background-color: rgba(139, 173, 135, 0.096);
+        border-radius: 600px 0px 700px 0px;
+        transform: rotate(-10deg);
+    }
+    
+    .mid{
+    /* width: 100%; */
+        /* border: 1px solid red; */
+        padding-top: 5%;
+        text-align: left;
+        transform: rotate(10deg);
+    }
+    
+    .pictachi{
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 0%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        /* border-radius: 15px; */
+        /* overflow: hidden; */
+        /* border: 1px solid red; */
+        position: relative;
+    }
+    
+    .bdiv{
+        /* border: 1px solid green;     */
+        /* margin-left: 50%; */
+        width: 200%;
+        height: auto;
+        display: flex;
+        transition: all 0.5s ease-out 0s;
+        transform: translateX(0%);
+    }
+    
+    #b1 , #b2 , #b3 , #b4{
+        width: 50%;
+        height: 100%;
+    }
+    
+    .switchcir{
+        margin: 0;
+        margin-top: 0%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #cir1 , #cir2 , #cir3 , #cir4{
+        height: 20px;
+        width: 20px;
+        border: 2px solid #55A34D;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    #cir1{
+        background-color:#55A34D;
+    }
+
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.845" height="52.043" viewBox="0 0 36.845 52.043">
+  <g id="Group_18" data-name="Group 18" transform="translate(-1050.155 -24.957)">
+    <path id="Icon_awesome-shopping-cart" data-name="Icon awesome-shopping-cart" d="M30.344,17.313,33.06,5.362a1.379,1.379,0,0,0-1.345-1.685H9.147L8.621,1.1A1.379,1.379,0,0,0,7.27,0H1.379A1.379,1.379,0,0,0,0,1.379V2.3A1.379,1.379,0,0,0,1.379,3.677H5.394L9.43,23.41a3.218,3.218,0,1,0,3.852.492H25.328a3.217,3.217,0,1,0,3.654-.6l.317-1.395a1.379,1.379,0,0,0-1.345-1.685H12.532l-.376-1.839H29A1.379,1.379,0,0,0,30.344,17.313Z" transform="translate(1051.155 25.957)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <text id="購物車" transform="translate(1051 73)" fill="#707070" font-size="12" font-family="NotoSansTC-Regular, Noto Sans TC"><tspan x="0" y="0">購物車</tspan></text>
+  </g>
+</svg>

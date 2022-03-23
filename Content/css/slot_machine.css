@@ -1,0 +1,172 @@
+.content{
+    background-image: url(../img/slot_machine.png);
+    width: 45%;
+    height: 550px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.machineContainer{
+    position: relative;
+    width: 470px;
+    height: 140px;
+    top: 57px;
+    right: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#slotMachineButton1{
+    right: 456px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+    background-color: #FFE509;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    top: 225px;
+    cursor: pointer;
+}
+.slotMachine{
+    overflow: hidden;
+    width: 32.33333%;
+    height: 140px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 5px;
+    padding: 15px 20px;
+}
+.btn{
+    width: 90px;
+    height: 50px;
+    background-color: #FF8901;
+    border: 0px solid #eeb44f;
+    border-radius: 75px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+.slotMachineButton{
+    background-color: #ffc477;
+    border: 0px solid #eeb44f;
+    border-radius: 75px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    height: 50px;
+    width: 90px;
+    line-height: 50px;
+    text-align: center;
+}
+.result_msg_box{
+    position: absolute;
+    width: 355px;
+    height: 100px;
+    background: #000000c7;
+    top: -100px;
+    border-radius: 20px;
+}
+.result_msg{
+    position: relative;
+    width: 95%;
+    height: 80%;
+    background: #f1eded;
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.record_game_box{
+    width: 40%;
+    margin: 10px auto;
+    height: 300px;
+    background: #5f5d5d59;
+    border-radius: 25px;
+}
+.record_game_info{
+    position: relative;
+    width: 90%;
+    height: 85%;
+    background: #fbfbfb;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    overflow-y: scroll;
+    font-size: 45px;
+    padding: 10px 20px;
+}
+.record_game_info p{
+    text-align: center;
+    margin: 0;
+}
+.record_game_info p span{
+    margin: 0 50px;
+    width: 100px;
+    display: inline-block;
+    text-align: end;
+}
+
+.slot1{
+    background-image: url(../img/slot1.png);
+    height: 140px;
+    background-repeat: no-repeat;
+}
+.slot2{
+    background-image: url(../img/slot2.png);
+    height: 140px;
+    background-repeat: no-repeat;
+}
+.slot3{
+    background-image: url(../img/slot3.png);
+    height: 140px;
+    background-repeat: no-repeat;
+}
+.slot4{
+    background-image: url(../img/slot4.png);
+    height: 140px;
+    background-repeat: no-repeat;
+}
+.slot5{
+    background-image: url(../img/slot5.png);
+    height: 140px;
+    background-repeat: no-repeat;
+}
+.slot6{
+    background-image: url(../img/slot6.png);
+    height: 140px;
+    background-repeat: no-repeat;
+}
+.rotate{
+    animation-name: rotate;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate {
+    0%{
+        margin-top: 0px;
+    }
+    50%{
+        margin-top: -350px;
+    }
+    100%{
+        margin-top: -700px;
+    }
+}
+  

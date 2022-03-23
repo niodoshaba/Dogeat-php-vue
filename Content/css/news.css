@@ -1,0 +1,464 @@
+.box_news{
+    width: 100%;
+    min-height: 75vh;
+}
+.box_change_news{
+    text-align: center;
+    margin: 10px;
+}
+.btn_reservoir,.btn_earthquake,.btn_news,.btn_taoyuan_parking,.btn_taoyuan_travel,.btn_exhibition{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #6bbc64;
+    text-align: center;
+    border: 2px solid #6bbc64;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.box_select{
+    text-align: center;
+}
+#select_city,#select_reservoir{
+    font-size: 25px;
+    outline: none;
+}
+.box_each_reservoir p{
+    margin: 0;
+}
+.box_each_reservoir{
+    display: flex;
+    flex-wrap: wrap;
+}
+.each_reservoir_flex{
+    flex: 0 0 31%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.4rem;
+    width:100px;
+}
+.reservoir_info{
+    width: 415px;
+    height: 485px;
+    border: solid 5px #178bca;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.wave{
+  stroke-width:5;
+  animation-name:wave;
+  animation-duration:2.3s;
+  animation-iteration-count:infinite;
+}
+@keyframes wave{
+    0%{
+        transform: translate(-80px, 10px);
+    }
+    5%{
+        transform: translate(-76px, 10px);
+    }
+    10%{
+        transform: translate(-72px, 10px);
+    }
+    15%{
+        transform: translate(-68px, 10px);
+    }
+    20%{
+        transform: translate(-64px, 10px);
+    }
+    25%{
+        transform: translate(-60px, 10px);
+    }
+    30%{
+        transform: translate(-56px, 10px);
+    }
+    35%{
+        transform: translate(-52px, 10px);
+    }
+    40%{
+        transform: translate(-48px, 10px);
+    }
+    45%{
+        transform: translate(-44px, 10px);
+    }
+    50%{
+        transform: translate(-40px, 10px);
+    }
+    55%{
+        transform: translate(-36px, 10px);
+    }
+    60%{
+        transform: translate(-32px, 10px);
+    }
+    65%{
+        transform: translate(-28px, 10px);
+    }
+    70%{
+        transform: translate(-24px, 10px);
+    }
+    75%{
+        transform: translate(-20px, 10px);
+    }
+    80%{
+        transform: translate(-16px, 10px);
+    }
+    85%{
+        transform: translate(-12px, 10px);
+    }
+    90%{
+        transform: translate(-8px, 10px);
+    }
+    95%{
+        transform: translate(-4px, 10px);
+    }
+    100%{
+        transform: translate(0px, 10px);
+    }
+}
+
+
+
+/* translate(-100px,235.4352px) */
+
+#earthquake_title{
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    background-image: linear-gradient(to right,
+    rgb(107, 188, 100, .0),
+    rgb(107, 188, 100, .6),
+    rgb(107, 188, 100),
+    rgb(107, 188, 100, .6),
+    rgb(107, 188, 100, .0));
+    color:#3f3f3f;
+}
+
+#earthquake_area_all{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+#earthquake_area{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+
+#earthquake_pic{
+    /* border: 1px solid rgb(121, 121, 170); */
+    height: 80%;
+}
+#earthquake_pic_img{
+    width: 100%;
+}
+
+#earthquake_area_select{
+    width: 70%;
+    margin-left: 15%;
+    background-image: linear-gradient(to right,
+    rgb(107, 188, 100, .0),
+    rgb(107, 188, 100, .6),
+    rgb(107, 188, 100),
+    rgb(107, 188, 100, .6),
+    rgb(107, 188, 100, .0));
+    display: flex;
+}
+#earthquake_each_area_title{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #6bbc64; */
+}
+#earthquake_each_area_title > span{
+    width: 25%;
+    font-size: 24px;
+    color: white;
+}
+#earthquake_each_area_content{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.earthquake_each_area{
+    /* border: 1px solid goldenrod; */
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #235e1e;
+    line-height: 24px;
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+.earthquake_each_location{
+    font-size: 16px;
+}
+.earthquake_each_eq_location{
+    font-size: 14px;
+}
+.earthquake_each_value{
+    font-size: 14px;
+}
+
+#earthquake_info{
+    /* border: 1px solid rgb(161, 42, 116); */
+    width: 30%;
+}
+#earthquake_station{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap ;
+}
+#station_list{
+    color:#000080;
+    font-size:24px;
+    text-align:center;
+    margin-top:5%
+}
+.each_station{
+    display: inline-block;
+    margin: 2.5%;
+    cursor: pointer;
+    font-size: 20px;
+    border-bottom: 2.5px solid rgb(107, 188, 100);
+}
+#earthquake_each_station > div{
+    font-size: 18px;
+    margin: 5% 0 5% 0;
+}
+#wave_img{
+    width:100%;
+    margin-top:25px;
+    transform: translateX(-5%);
+}
+
+/*taoyuan_parking*/
+#box_taoyuan_parking{
+    width: 90%;
+    margin: 0 auto;
+    text-align:center;
+}
+.flex{
+    display: flex;
+    width: 85%;
+    margin: 25px auto;
+}
+#box_select_park{
+    height: 500px;
+    width:29%;
+    margin: 0 20px;
+}
+#select_park{
+    width:100%;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#park_info{
+    border-color: #6bbc64;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+#park_info p{
+    margin:10px;
+    font-size: 20px;
+    text-align: start;
+}
+#map{
+    height: 500px;
+    width:70%;
+}
+/*taoyuan_parking*/
+
+/*taoyuan_travel*/
+#box_taoyuan_travel{
+    width: 90%;
+    margin: 0 auto;
+    text-align:center;
+}
+#taoyuan_travel_info{
+    width: 70%;
+    margin: 0 auto;
+}
+#each_info{
+    position: relative;
+    margin: 25px 0;
+    border: 2px solid #0000004d;
+    border-radius: 30px;
+    padding: 20px;
+}
+#each_info p{
+    margin: 5px 0;
+    font-size: 19px;
+}
+.attraction_img{
+    position: relative;
+}
+.attraction_img img{
+    box-shadow: 5px 5px #00000021;
+    width: 350px;
+    height: 250px;
+    border-radius: 40px;
+    border: 3px solid #565656bd;
+    display: block;
+}
+.info{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000087;
+    border-radius: 40px;
+    transition: opacity 1s ease;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.attraction_img a{
+    font-size: 40px;
+    color: #fff;
+    width: 95%;
+}
+.info a:link{
+    color: #fff;
+}
+.info a:visited{
+    color: #fff;
+}
+.info:hover{
+    opacity: 1;
+}
+.attraction_info{
+    margin: 0 15px;
+    text-align: start;
+}
+#box_img{
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+}
+.each_img{
+    overflow: hidden;
+    overflow-x: scroll;
+    position: relative;
+    white-space: nowrap;
+    height: 250px;
+    border: 2px solid #b2b2b2;
+}
+.each_img img{
+    width: 33%;
+    height: 250px;
+    display: inline-block;
+    border: 2px solid #fff;
+}
+/*taoyuan_travel*/
+
+/* exhibition */
+#box_weather{
+    padding: 10px;
+    width: 40%;
+    margin: 20px auto;
+    font-size: 25px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 2px solid #b2b2b2;
+    text-align: center;
+}
+#box_weather select{
+    border-radius: 10px;
+    font-size: 30px;
+    outline: none;
+    padding: 0 8px;
+    margin: 5px;
+    background: #fff;
+}
+.weather_info{
+    width: 45%;
+    margin: 0 auto;
+    text-align: start;
+}
+.weather_info p{
+    margin: 10px;
+}
+#exhibition_info{
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid #b2b2b2;
+    border-radius: 30px;
+    text-align: center;
+}
+#exhibition_info select{
+    border-radius: 10px;
+    font-size: 30px;
+    outline: none;
+    padding: 0 8px;
+    margin-top: 20px;
+    background: #fff;
+}
+.each_exhibition_info{
+    width: 95%;
+    margin: 20px auto;
+    border: 2px solid #b2b2b2;
+    border-radius: 30px;
+    font-size: 25px;
+}
+.each_exhibition_info p{
+    word-wrap:break-word;
+    margin: 5px;
+}
+.each_exhibition_info a{
+    display: block;
+    width: 98%;
+    background: #76cfae;
+    margin: 10px auto;
+    border-radius: 20px;
+    color: #fff;
+}
+#select_data input{
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    padding: 0 8px;
+    margin: 20px 15px 0 0;
+    background: #fff;
+}
+#select_data span{
+    font-size: 25px;
+}
+/* exhibition */

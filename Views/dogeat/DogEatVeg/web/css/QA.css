@@ -1,0 +1,421 @@
+@import "header_footer.css";
+
+*{
+    font-family: "Noto Sans TC";
+}
+*a{
+    font-size: 0;
+}
+
+
+body{
+    /* min-width: 1440px; */
+    margin: 0px;
+    ;
+}
+
+.headerbtn_QA{
+    color:#55A34D;
+    cursor: pointer;
+    width: 100%;
+    text-shadow:#42813B 0em 0em 0.05em;
+}
+.headerbtn_QA > img{
+    width: 25%;
+    opacity: 1;
+}
+.title > p{
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    color:#606060;
+    text-align: center;
+    text-shadow:#606060 0em 0em 0.05em;
+}
+
+.QAdiv{
+    box-sizing: border-box;
+    width: 100%;
+    /* min-width: 1200px; */
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.QA{
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    /* margin-bottom: 5%; */
+    width: 34%;
+
+}
+
+.Q1{
+    transform: translateY(100%);
+    margin: 0;
+    font-size: 0.8rem;
+    text-align: right;
+    color:#858585
+}
+
+.Q2{
+    display: block;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #606060;
+    line-height: 2.5rem;
+}
+.Q3{
+    display: block;
+    background-color: rgb(250, 250, 250);
+    height: 150px;
+
+    font-size: 18px;
+    line-height: 2rem;
+    color: #606060;
+    overflow: hidden;
+    padding-right: 20px;
+    /* transition: all 0.2s linear; */
+}
+.-moretext{
+    height: auto;
+}
+.readmore{
+    text-align: right;
+    line-height: 2.5rem;
+    color: #55A34D;
+    cursor: pointer;
+    z-index: 100;
+}
+.morediv1{
+    text-align: left;
+    color: #606060;
+    /* display: none; */
+}
+
+#inqa{
+    color: #55A34D;
+}
+
+/* RWD *//* RWD *//* RWD *//* RWD *//* RWD */
+/* RWD *//* RWD *//* RWD *//* RWD *//* RWD */
+/* RWD *//* RWD *//* RWD *//* RWD *//* RWD */
+
+/* 1200~1024 *//* 1200~1024 *//* 1200~1024 *//* 1200~1024 */
+/* 1200~1024 *//* 1200~1024 *//* 1200~1024 *//* 1200~1024 */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .title > p{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        color:#606060;
+        text-align: center;
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    .QAdiv{
+        box-sizing: border-box;
+        width: 100%;
+        /* min-width: 1025px; */
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .QA{
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 35%;
+    
+    }
+    
+    .Q1{
+        transform: translateY(100%);
+        margin: 0;
+        font-size: 0.8rem;
+        text-align: right;
+        color:#858585
+    }
+    
+    .Q2{
+        display: block;
+        margin: 0;
+        font-size: 1.5rem;
+        color: #606060;
+        line-height: 2.5rem;
+    }
+    .Q3{
+        display: block;
+        background-color: rgb(250, 250, 250);
+        height: 150px;
+    
+        font-size: 16px;
+        line-height: 2rem;
+        color: #606060;
+        overflow: hidden;
+        padding-right: 20px;
+    }
+    .-moretext{
+        height: auto;
+    }
+    .readmore{
+        text-align: right;
+        line-height: 2.5rem;
+        color: #55A34D;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .morediv1{
+        text-align: left;
+        color: #606060;
+        /* display: none; */
+    }
+}
+
+/* 1200~1024 *//* 1200~1024 *//* 1200~1024 *//* 1200~1024 */
+/* 1200~1024 *//* 1200~1024 *//* 1200~1024 *//* 1200~1024 */
+
+/* 1024~769 *//* 1024~769 *//* 1024~769 *//* 1024~769 */
+/* 1024~769 *//* 1024~769 *//* 1024~769 *//* 1024~769 */
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .title > p{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        color:#606060;
+        text-align: center;
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    .QAdiv{
+        box-sizing: border-box;
+        width: 100%;
+        /* min-width: 1025px; */
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .QA{
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 70%;
+    
+    }
+    
+    .Q1{
+        transform: translateY(100%);
+        margin: 0;
+        font-size: 0.8rem;
+        text-align: right;
+        color:#858585
+    }
+    
+    .Q2{
+        display: block;
+        margin: 0;
+        font-size: 1.5rem;
+        color: #606060;
+        line-height: 2.5rem;
+    }
+    .Q3{
+        display: block;
+        background-color: rgb(250, 250, 250);
+        height: 150px;
+    
+        font-size: 16px;
+        line-height: 2rem;
+        color: #606060;
+        overflow: hidden;
+        padding-right: 20px;
+    }
+    .-moretext{
+        height: auto;
+    }
+    .readmore{
+        text-align: right;
+        line-height: 2.5rem;
+        color: #55A34D;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .morediv1{
+        text-align: left;
+        color: #606060;
+        /* display: none; */
+    }
+}
+
+/* 1024~769 *//* 1024~769 *//* 1024~769 *//* 1024~769 */
+/* 1024~769 *//* 1024~769 *//* 1024~769 *//* 1024~769 */
+
+/* 768~577 *//* 768~577 *//* 768~577 *//* 768~577 *//* 768~577 */
+/* 768~577 *//* 768~577 *//* 768~577 *//* 768~577 *//* 768~577 */
+
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .title > p{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        color:#606060;
+        text-align: center;
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    .QAdiv{
+        box-sizing: border-box;
+        width: 100%;
+        /* min-width: 577px; */
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .QA{
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 80%;
+    
+    }
+    
+    .Q1{
+        transform: translateY(100%);
+        margin: 0;
+        font-size: 0.8rem;
+        text-align: right;
+        color:#858585
+    }
+    
+    .Q2{
+        display: block;
+        margin: 0;
+        font-size: 1.5rem;
+        color: #606060;
+        line-height: 2.5rem;
+    }
+    .Q3{
+        display: block;
+        background-color: rgb(250, 250, 250);
+        height: 150px;
+    
+        font-size: 16px;
+        line-height: 2rem;
+        color: #606060;
+        overflow: hidden;
+        padding-right: 20px;
+    }
+    .-moretext{
+        height: auto;
+    }
+    .readmore{
+        text-align: right;
+        line-height: 2.5rem;
+        color: #55A34D;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .morediv1{
+        text-align: left;
+        color: #606060;
+        /* display: none; */
+    }
+}
+
+
+/* 768~577 *//* 768~577 *//* 768~577 *//* 768~577 *//* 768~577 */
+/* 768~577 *//* 768~577 *//* 768~577 *//* 768~577 *//* 768~577 */
+
+
+/* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ */
+/* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ */
+
+
+@media screen and (min-width: 250px) and (max-width: 576px){
+    .title > p{
+        margin-bottom: 10px;
+        font-size: 1.6rem;
+        color:#606060;
+        text-align: center;
+        text-shadow:#606060 0em 0em 0.05em;
+    }
+    
+    .QAdiv{
+        box-sizing: border-box;
+        width: 100%;
+        /* min-width: 577px; */
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .QA{
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width: 80%;
+    
+    }
+    
+    .Q1{
+        transform: translateY(100%);
+        margin: 0;
+        font-size: 0.8rem;
+        text-align: right;
+        color:#858585
+    }
+    
+    .Q2{
+        display: block;
+        margin: 0;
+        font-size: 1.5rem;
+        color: #606060;
+        line-height: 2.5rem;
+    }
+    .Q3{
+        display: block;
+        background-color: rgb(250, 250, 250);
+        height: 150px;
+    
+        font-size: 16px;
+        line-height: 2rem;
+        color: #606060;
+        overflow: hidden;
+        padding-right: 20px;
+    }
+    .-moretext{
+        height: auto;
+    }
+    .readmore{
+        text-align: right;
+        line-height: 2.5rem;
+        color: #55A34D;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .morediv1{
+        text-align: left;
+        color: #606060;
+        /* display: none; */
+    }
+}
+
+/* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ */
+/* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ *//* 576~~ */

@@ -1,0 +1,112 @@
+#product_info_all{
+    /* border: 1px solid yellow; */
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center ;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color:#606060;
+}
+#product_info_img{
+    /* margin-top: 2.5%; */
+    /* border: 1px solid red; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#product_info_big_img{
+    /* border: 1px solid green; */
+    width: 100%;
+}
+#product_info_big_img > img{
+    width: 100% ;
+}
+#product_info_small_img{
+    /* border: 1px solid orange; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.product_info_small_img_each{
+    /* border: 1px solid purple; */
+    width: 100%;
+    margin: 5% 10px 5% 10px;
+}
+.product_info_small_img_each:first-child{
+    margin: 5% 10px 5% 0px;
+}
+.product_info_small_img_each:last-child{
+    margin: 5% 0px 5% 10px;
+}
+.product_info_small_img_each > img{
+    width: 100%;
+}
+
+
+#product_info_info{
+    /* border: 1px solid blue;   */
+    width: 40%;
+    /* height: 10vh; */
+    margin-left: 2.5%;
+    position: relative;
+}
+#product_info_catalog1{
+    background-color:  rgba(248, 139, 50);
+    color: white;
+    padding: 5px 10px;
+    /* font-weight: 300; */
+}
+#product_info_catalog2{
+    background-color:  #55A34D;
+    color: white;
+    padding: 5px 10px;
+    /* font-weight: 300; */
+}
+#product_info_title{
+    margin-top: 16px;
+    font-size: 24px;
+}
+#product_info_price{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+#product_info_detail{
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#product_info_sec_title{
+    font-size: 20px;
+}
+#product_info_li{
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 5%;
+}
+#product_info_btn{
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+}
+#product_info_back, #product_info_cart{
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 15px ;
+}
+#product_info_back{
+    cursor: pointer;
+    margin-right: 25px;
+    border: 2px solid #55A34D;
+    color: #55A34D;
+}
+#product_info_cart{
+    cursor: pointer;
+    margin-left: 25px;
+    background-color:#55A34D;
+    color: white;
+}

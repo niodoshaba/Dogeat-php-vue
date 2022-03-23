@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="52.043" viewBox="0 0 48 52.043">
+  <g id="Group_19" data-name="Group 19" transform="translate(-1120 -24.957)">
+    <path id="Icon_material-person" data-name="Icon material-person" d="M20.459,20.459a7.229,7.229,0,1,0-7.229-7.229A7.227,7.227,0,0,0,20.459,20.459Zm0,3.615C15.633,24.074,6,26.5,6,31.3v3.615H34.918V31.3C34.918,26.5,25.285,24.074,20.459,24.074Z" transform="translate(1123.871 19.957)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <text id="會員中心" transform="translate(1120 73)" fill="#707070" font-size="12" font-family="NotoSansTC-Regular, Noto Sans TC"><tspan x="0" y="0">會員中心</tspan></text>
+  </g>
+</svg>

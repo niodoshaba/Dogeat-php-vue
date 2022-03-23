@@ -1,0 +1,10 @@
+.headerbtn_member_center{
+    color:#55A34D;
+    cursor: pointer;
+    width: 100%;
+    text-shadow:#42813B 0em 0em 0.05em;
+}
+.headerbtn_member_center > img{
+    width: 25%;
+    opacity: 1;
+}

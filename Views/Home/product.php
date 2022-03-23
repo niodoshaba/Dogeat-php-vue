@@ -4,6 +4,7 @@ $frontData1 = json_encode(Bang\Lib\ResponseBag::Get('front_data1'));
 Bundle::Css('test_css', array(
     'Content/css/product.css',
 ));
+
 ?>
 <div id="CartPrompt" style="background: #25672dde;padding: 10px;position: fixed;top: 10px;left: 50%;transform: translateX(-50%);display: none;border-radius: 20px;font-size: larger;color: #fff;z-index:1;">
     <span>加入購物車成功</span>

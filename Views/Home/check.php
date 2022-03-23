@@ -5,6 +5,7 @@ Bundle::Css('test_css', array(
 ));
 $pro_detail = Bang\Lib\ResponseBag::Get('pro_detail');
 $ecpay_return_info = Bang\Lib\ResponseBag::Get('ecpay_return_info');
+
 ?>
 
 <style>
@@ -127,11 +128,11 @@ $ecpay_return_info = Bang\Lib\ResponseBag::Get('ecpay_return_info');
                         echo "<p style='white-space:nowrap;'>".$_SESSION["ecpay_return_info"]["PaymentNo"]."</p>";
                     }else{//條碼 
                         echo "<p style='white-space:nowrap;'>條碼第一段號碼：".$_SESSION["Barcode1"]."</p>";
-                        echo "<img src='http://192.168.56.103/frontVue/index.php?action=Barcode_img1&controller=Barcode_img'>";
+                        echo "<img src='http://niodoshaba.byethost17.com/frontVue/index.php?action=Barcode_img1&controller=Barcode_img'>";
                         echo "<p style='white-space:nowrap;'>條碼第二段號碼：".$_SESSION["Barcode2"]."</p>";
-                        echo "<img src='http://192.168.56.103/frontVue/index.php?action=Barcode_img2&controller=Barcode_img'>";
+                        echo "<img src='http://niodoshaba.byethost17.com/frontVue/index.php?action=Barcode_img2&controller=Barcode_img'>";
                         echo "<p style='white-space:nowrap;'>條碼第三段號碼：".$_SESSION["Barcode3"]."</p>";
-                        echo "<img src='http://192.168.56.103/frontVue/index.php?action=Barcode_img3&controller=Barcode_img'>";                  
+                        echo "<img src='http://niodoshaba.byethost17.com/frontVue/index.php?action=Barcode_img3&controller=Barcode_img'>";                  
                     }
                 }
             ?>
@@ -191,13 +192,14 @@ $ecpay_return_info = Bang\Lib\ResponseBag::Get('ecpay_return_info');
                     <input type="hidden" name="LogisticsType" value="CVS" />
                     <input type="hidden" name="LogisticsSubType" value="UNIMARTC2C" />
                     <input type="hidden" name="IsCollection" value="N" />
-                    <input type="hidden" name="ServerReplyURL" value="http://<?php echo \Config::$Api ?>/frontVue/index.php?controller=Home&action=check" />
+                    <input type="hidden" name="ServerReplyURL" value="http://<?php echo \Config::$Api ?>frontVue/index.php?controller=Home&action=check" />
                     <input type="submit" id="__paymentButton" value="選擇取件門市" />
                 </form>
                 <br>
                 <span>
                     <?php
-                    print_r($ecpay_return_info);
+                    // print_r($ecpay_return_info);
+                    print_r($_POST);
                         if(isset($_POST["MerchantID"]) && isset($_POST["LogisticsSubType"])){
                             if($_POST["LogisticsSubType"] == "UNIMARTC2C"){
                                 $_POST["LogisticsSubType"] = "統一超商";
@@ -250,9 +252,9 @@ $ecpay_return_info = Bang\Lib\ResponseBag::Get('ecpay_return_info');
         el:'#vue',
         data : function(){
             return {
-                cart_data:"",
-                cus_point: <?php if(!isset($_SESSION["cus_id"])){unset($_SESSION["cus_point"]);echo "0";}else{echo $_SESSION["cus_point"];}?>,
-                cus_phone: <?php if(isset($_SESSION['cus_phone'])){echo $_SESSION['cus_phone'];}else{echo "";}?>,
+                cart_data: "",
+                cus_point: "<?php if(!isset($_SESSION["cus_id"])){unset($_SESSION["cus_point"]);echo "0";}else{echo $_SESSION["cus_point"];}?>",
+                cus_phone: "<?php isset($_SESSION['cus_phone']) ? $_SESSION['cus_phone'] : "" ?>",
             }
         },
         mounted: function () {

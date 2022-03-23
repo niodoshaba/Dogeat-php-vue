@@ -5,7 +5,7 @@ namespace Controllers;
 use Bang\MVC\ControllerBase;
 // use Bang\Lib\Response;
 // use Bang\Lib\TaskResult;
-// use Bang\Lib\ResponseBag;   
+use Bang\Lib\ResponseBag;   
 /**
  * 主頁面Controller
  * @author Bang
@@ -91,7 +91,8 @@ class Home extends ControllerBase {
     public function check() {
         $action = array(
             "controller" => "Home",
-            "action" => "Check");       
+            "action" => "Check"
+        );               
         $this -> GetcUrl("pro_detail",$action);
         return $this->View();
     }
